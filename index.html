@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeFi Guardian Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>DeFi Guardian</h1>
+      <p class="subtitle">Autonomous Risk Monitoring for Algorand DeFi</p>
+
+      <section class="card grid">
+        <div>
+          <h3>Risk Score</h3>
+          <p id="risk-score" class="value">--</p>
+        </div>
+        <div>
+          <h3>Risk Level</h3>
+          <p id="risk-level" class="value">--</p>
+        </div>
+        <div>
+          <h3>Recommendation</h3>
+          <p id="recommendation" class="value">--</p>
+        </div>
+      </section>
+
+      <section class="card grid">
+        <div>
+          <h3>Token Price</h3>
+          <p id="token-price">--</p>
+        </div>
+        <div>
+          <h3>24h Volume</h3>
+          <p id="volume">--</p>
+        </div>
+        <div>
+          <h3>Liquidity</h3>
+          <p id="liquidity">--</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Recent Alerts</h2>
+        <ul id="alerts" class="alerts"></ul>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
